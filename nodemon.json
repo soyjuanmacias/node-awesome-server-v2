@@ -1,0 +1,8 @@
+{
+  "restartable": "rs",
+  "verbose": true,
+  "watch": ["src", ".env"],
+  "ext": "js,json",
+  "ignore": ["src/**/*.spec.js"],
+  "exec": "NODE_ENV=development node ./index.js"
+}
